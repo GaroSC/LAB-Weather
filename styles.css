@@ -1,0 +1,58 @@
+body {
+  background-image: radial-gradient(circle, white, lightblue);
+}
+
+div {
+  width: 300px;
+  margin: 10px auto;
+  border-radius: 25px 50px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.616);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+button {
+  background-color: lightgreen;
+  border-radius: 10px;
+  border-color: lightgreen;
+  color: navy;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  padding: 5px 15px;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+button:hover {
+  background-color: teal;
+  color: aliceblue;
+  border-color: teal;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+label {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

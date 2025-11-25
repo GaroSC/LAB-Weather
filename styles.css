@@ -12,6 +12,15 @@ div {
   text-align: center;
 }
 
+.container {
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: rgba(0, 174, 255, 0.822);
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+}
+
 button {
   background-color: lightgreen;
   border-radius: 10px;
@@ -55,4 +64,10 @@ p {
   color: black;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
